@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+   <header>
+      <nav>
+           <ul>
+              
+           </ul>
+       </nav>
+   </header>
+
+   <aside>
+    
+<hr>
+       <ul>
+  
+           <li><a href="#"><img src="images/save.png" width="50" height="50"></a></li>
+           <li><a href="#"><img src="images/load.png" width="50" height="50"></a></li>
+           <li><a href="#"><img src="images/rect.png" width="50" height="50"></a></li>
+           <li><a href="#"><img src="images/triangle.png" width="50" height="50"></a></li>
+           <li><a href="#"><img src="images/circle.png" width="50" height="50"></a></li>
+           <li><a href="#"><img src="images/line.png" width="50" height="50"></a></li>
+           <li><a href="#"><img src="images/floor.png" width="50" height="50"></a></li>
+           <li><a href="#"><img src="images/delete.png" width="50" height="50"></a></li>
+
+       </ul>
+   </aside>
+    <main>
+       <svg id="mySvg" width="600" height="400">
+      </svg>
+    </main>
+
+    <script 
+      type="text/javascript" 
+      src="interaction.js">
+    </script>
+    <script src="svg.js"></script>
+    <script src="svg.draw.js"></script>
+    
+
+    </body>
+    
+</html>
+<script>
+var draw = SVG('msSvg')
+
+// draw pink square
+draw.rect(100, 100).move(100, 50).fill('black')
+</script>
