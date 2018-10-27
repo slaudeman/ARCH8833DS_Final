@@ -1,0 +1,9 @@
+{
+	"spaces": [
+		{"id": 0, "name": "Hallway", "color": "#7e49bbe7", "lineweight": "1"}, 
+		{"id": 1, "name": "Bathroom", "color": "#ff494cff", "lineweight": "1"},
+		{"id": 2, "name": "Kitchen", "color": "#003eff1c", "lineweight": "1"},
+		{"id": 3, "name": "Bedroom", "color": "red", "lineweight": "1"},
+		{"id": 4, "name": "Living room", "color": "red", "lineweight": "1"}
+	]
+}
