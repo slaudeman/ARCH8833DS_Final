@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+</head>
+<body>
+
+
+<div class="slidecontainer">  
+  <p>Rotate by <span id="rotateDeg"></span> degrees</p>
+  <input type="range" min="-90" max="90" value="0" class="slider" id="rotateRange">
+</div>
+
+<div>  
+  <p >Scale by <span id="scaleVal"></span>%</p>
+  <input type="range" min="25" max="200" value="100" class="slider" id="scaleRange">
+</div>   
+
+  <div id="idRed" class="label">
+    Red
+  </div>
+  <div class="aria-widget-slider">
+    <div class="rail" style="width: 300px;">
+      <div id="idRedValue"
+           role="slider"
+           tabindex="0"
+           class="thumb"
+           aria-valuemin="0"
+           aria-valuenow="0"
+           aria-valuemax="255"
+           aria-labelledby="idRed"></div>
+    </div>
+    <div class="value">
+      0
+    </div>
+  </div>
+  <div id="idGreen" class="label">
+    Green
+  </div>
+  <div class="aria-widget-slider">
+    <div class="rail" style="width: 300px">
+      <div id="idGreenValue"
+           role="slider"
+           tabindex="0"
+           class="thumb"
+           aria-valuemin="0"
+           aria-valuenow="0"
+           aria-valuemax="255"
+           aria-labelledby="idGreen"></div>
+    </div>
+    <div class="value">
+      0
+    </div>
+  </div>
+  <div id="idBlue" class="label">
+    Blue
+  </div>
+  <div class="aria-widget-slider">
+    <div class="rail" style="width: 300px">
+      <div id="idBlueValue"
+           role="slider"
+           tabindex="0"
+           class="thumb"
+           aria-valuemin="0"
+           aria-valuenow="0"
+           aria-valuemax="255"
+           aria-labelledby="idBlue"></div>
+    </div>
+    <div class="value">
+      0
+    </div>
+  </div>
+  <div id="idAlpha" class="label">
+    Alpha
+  </div>
+  <div class="aria-widget-slider">
+    <div class="rail" style="width: 300px">
+      <div id="idAlphaValue"
+           role="slider"
+           tabindex="0"
+           class="thumb"
+           aria-valuemin="0"
+           aria-valuenow="0"
+           aria-valuemax="255"
+           aria-labelledby="idAlpha"></div>
+    </div>
+	<div class="value">
+      0
+    </div>
+</div>
+<h3>
+  Color Box
+</h3>
+<div id="idColorInfo">
+  <div id="idColorBox"
+	   >
+  </div>
+  <label>
+    Color (HEX):
+    <input type="text"
+           readonly=""
+           id="idColorValueHex"
+           value="">
+  </label>
+  <label>
+    Color (RGB):
+    <input type="text"
+           readonly=""
+           id="idColorValueRGB"
+           value="">
+  </label>
+</div>
+
+<div role="radiogroup"
+	 class="buttoncontainer"
+     aria-labelledby="gdesc1"
+    >
+  <h3>
+    Lineweight
+  </h3>
+  <div role="radio"
+	   class= "radioRed"
+       aria-checked="false"
+       tabindex="0">
+     Light 
+  </div>
+  <div role="radio"
+       aria-checked="false"
+       tabindex="-1">
+     Medium 
+  </div>
+  <div role="radio"
+       aria-checked="false"
+       tabindex="-1">
+     Heavy 
+  </div>
+</div>
+
+</body>
+
+<script 
+	type="text/javascript" 
+	src="interaction.js">
+</script>
+
+
+</html>
