@@ -1,0 +1,143 @@
+/*================================================
+                    Body
+  ================================================*/
+body{
+    margin: 0;
+    background-color: white;
+}
+
+
+/*================================================
+                    Header
+  ================================================*/
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 210px;
+    background-color: white;
+}
+
+
+nav ul {
+    /*remove list mark*/
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {    
+    /*remove menu padding*/
+    float: left;
+}
+
+nav ul li a {    
+    /*remove */
+    text-decoration :none;
+    
+    /*height control*/
+    display: block;
+    
+    padding: 10px 100px;
+    line-height:  20px;
+    color: white;
+}
+
+
+nav ul li a:hover{ 
+    color: saddlebrown;
+    background-color: #ffffff;   
+}
+
+/*================================================
+                    Aside
+  ================================================*/
+aside {
+    position: fixed;
+    float: left;
+    margin-top:10px;
+    margin-left:70px;
+    height: 200%;
+    width: 200px;
+    background-color: 
+}
+aside h1{ 
+    font-family: sans-serif;
+    margin-left: 0px;
+}
+
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside ul li{
+    margin: 0;
+}
+
+aside ul li a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    padding: 10px;
+    padding-left: 10px;
+    display: block;
+}
+
+aside a:hover{
+    color: #ffffff;
+    background-color: rosybrown;
+}
+
+/*================================================
+                    Main
+  ================================================*/
+main {
+   font-family: sans-serif;
+   margin-left: 400px;
+   height: 100%;
+   margin-top: 90px;
+   padding: 155px 20px;
+   color: saddlebrown;
+   background-color: #ffffff;
+}
+
+main h1{
+  color: black;
+}
+
+main p{
+  color: black;
+  margin-right:100px;
+}
+}
+
+
+/*================================================
+                    Footer
+  ================================================*/
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 10px;
+    padding-left: 40px;
+    color: aliceblue;
+    background-color: rosybrown;
+}
+
+
+svg {
+  float: left;
+  border-bottom: solid 1px #ccc;
+  border-right: solid 1px #ccc;
+  border-left: solid 1px #ccc;
+  border-top: solid 1px #ccc;
+
+}
+rect {
+  opacity: 0.2;
+}
